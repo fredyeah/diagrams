@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T14:24:31.729Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" version="20.0.4" etag="k3V9E4MsZDJRU73dnpmG" type="github"><diagram id="_z7J9TWY1c6EhE4XDfh3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-07T14:28:51.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36" etag="F0J74PeK10T22S0avsoM" version="20.0.4" type="github">
+  <diagram id="_z7J9TWY1c6EhE4XDfh3" name="Page-1">
+    <mxGraphModel dx="1018" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0Ff3-hqbQeK48gbbymod-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Ff3-hqbQeK48gbbymod-1" target="0Ff3-hqbQeK48gbbymod-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ff3-hqbQeK48gbbymod-1" value="HTTP request from on-prem or cloud instance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ff3-hqbQeK48gbbymod-2" value="redact_insights_report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ff3-hqbQeK48gbbymod-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0Ff3-hqbQeK48gbbymod-3" target="0Ff3-hqbQeK48gbbymod-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Ff3-hqbQeK48gbbymod-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0Ff3-hqbQeK48gbbymod-3" target="0Ff3-hqbQeK48gbbymod-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Ff3-hqbQeK48gbbymod-3" value="Insights or Consumption" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Ff3-hqbQeK48gbbymod-6" value="redact_consumptions_report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
