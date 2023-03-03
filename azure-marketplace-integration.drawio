@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T09:36:15.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1073Q0LyTYWwfChbQMbv" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T09:38:12.218Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="f_OsSkScZphRRcVieSME" version="20.0.4" type="github">
   <diagram id="QCw60tyAbhrBxFfpFavn" name="Page-1">
     <mxGraphModel dx="1131" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,11 +34,11 @@
         <mxCell id="6gx0l_ZdjT-B5nw_couS-2" value="Custom Policies" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="200" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6gx0l_ZdjT-B5nw_couS-7" value="Subscription Intent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-3" target="6gx0l_ZdjT-B5nw_couS-1">
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-7" value="Subscription Intent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-3" target="6gx0l_ZdjT-B5nw_couS-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-3" value="Azure Marketplace" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="160" height="40" as="geometry" />
+          <mxGeometry x="120" y="40" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-10" target="6gx0l_ZdjT-B5nw_couS-13">
           <mxGeometry relative="1" as="geometry" />
@@ -76,6 +76,17 @@
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-22" value="AAD B2C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-27" target="6gx0l_ZdjT-B5nw_couS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-29" value="Sign Up" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-28">
+          <mxGeometry x="-0.0389" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-27" value="Regular Customer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
