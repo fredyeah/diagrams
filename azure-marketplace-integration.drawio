@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T10:16:06.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="KX7Uh0lr1lYQt1XSypd2" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T10:23:52.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="dZ9MbK79gZOB9rFkaPT0" version="20.0.4" type="github">
   <diagram id="QCw60tyAbhrBxFfpFavn" name="Page-1">
-    <mxGraphModel dx="2262" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="424" dy="252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -213,6 +213,68 @@
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-77" value="Activate APIM and MongoDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1081" y="1080" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-83" target="6gx0l_ZdjT-B5nw_couS-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-83" value="Consumption Report set to Portal Function" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-88" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-84" target="6gx0l_ZdjT-B5nw_couS-85">
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-84" target="6gx0l_ZdjT-B5nw_couS-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-91" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-90">
+          <mxGeometry x="0.0771" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-84" value="Customer has &lt;br&gt;Marketplace ID" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-85" target="6gx0l_ZdjT-B5nw_couS-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-96" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-95">
+          <mxGeometry x="0.0986" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-85" target="6gx0l_ZdjT-B5nw_couS-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-99" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-98">
+          <mxGeometry x="-0.2167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-85" value="Customer has &lt;br&gt;Stripe ID" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-89" target="6gx0l_ZdjT-B5nw_couS-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-89" value="Report usage to SaaS API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-94" target="6gx0l_ZdjT-B5nw_couS-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-94" value="Report usage to Stripe" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-97" target="6gx0l_ZdjT-B5nw_couS-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-97" value="Report usage to MongoDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-101" value="Report usage to ELK Stack" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="440" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
