@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T09:59:33.748Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="jUuaUWGroD3cz8u95jzA" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T09:59:51.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="sD73lbAsj33u0NY3x61q" version="20.0.4" type="github">
   <diagram id="QCw60tyAbhrBxFfpFavn" name="Page-1">
-    <mxGraphModel dx="1072" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1198" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-36" value="Customer Created &lt;br&gt;(SSO or via email)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="600" width="160" height="40" as="geometry" />
+          <mxGeometry x="1200" y="40" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-37" target="6gx0l_ZdjT-B5nw_couS-49">
           <mxGeometry relative="1" as="geometry" />
@@ -105,8 +105,8 @@
         <mxCell id="6gx0l_ZdjT-B5nw_couS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-37" target="6gx0l_ZdjT-B5nw_couS-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="800" />
-              <mxPoint x="520" y="980" />
+              <mxPoint x="1400" y="240" />
+              <mxPoint x="1400" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -116,28 +116,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-37" value="Login request has &lt;br&gt;purchase id token" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="760" width="160" height="80" as="geometry" />
+          <mxGeometry x="1200" y="200" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-39" target="6gx0l_ZdjT-B5nw_couS-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-39" value="Call /user/create" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="680" width="160" height="40" as="geometry" />
+          <mxGeometry x="1200" y="120" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-45" target="6gx0l_ZdjT-B5nw_couS-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-45" value="Create APIM Subscription" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="960" width="160" height="40" as="geometry" />
+          <mxGeometry x="1200" y="400" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-47" value="Create MongoDB Entry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1040" width="160" height="40" as="geometry" />
+          <mxGeometry x="1200" y="480" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-49" target="6gx0l_ZdjT-B5nw_couS-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-49" value="Create Stripe Customer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="880" width="160" height="40" as="geometry" />
+          <mxGeometry x="1200" y="320" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
