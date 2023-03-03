@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T09:59:51.644Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="sD73lbAsj33u0NY3x61q" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T10:02:31.793Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="hePxOchv6YEr_29BpgHq" version="20.0.4" type="github">
   <diagram id="QCw60tyAbhrBxFfpFavn" name="Page-1">
     <mxGraphModel dx="1198" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,21 +97,16 @@
         <mxCell id="6gx0l_ZdjT-B5nw_couS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-37" target="6gx0l_ZdjT-B5nw_couS-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6gx0l_ZdjT-B5nw_couS-52" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-50">
-          <mxGeometry x="-0.3789" y="-1" relative="1" as="geometry">
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-63" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-50">
+          <mxGeometry x="-0.3047" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6gx0l_ZdjT-B5nw_couS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-37" target="6gx0l_ZdjT-B5nw_couS-45">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1400" y="240" />
-              <mxPoint x="1400" y="420" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-37" target="6gx0l_ZdjT-B5nw_couS-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6gx0l_ZdjT-B5nw_couS-54" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-53">
-          <mxGeometry x="-0.1885" y="4" relative="1" as="geometry">
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-61" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-60">
+          <mxGeometry x="-0.1676" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -128,16 +123,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-45" value="Create APIM Subscription" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="400" width="160" height="40" as="geometry" />
+          <mxGeometry x="1200" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-47" target="6gx0l_ZdjT-B5nw_couS-55">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-47" value="Create MongoDB Entry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="480" width="160" height="40" as="geometry" />
+          <mxGeometry x="1200" y="400" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6gx0l_ZdjT-B5nw_couS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-49" target="6gx0l_ZdjT-B5nw_couS-45">
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-49" target="6gx0l_ZdjT-B5nw_couS-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-49" value="Create Stripe Customer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="320" width="160" height="40" as="geometry" />
+          <mxGeometry x="1400" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-55" target="6gx0l_ZdjT-B5nw_couS-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-55" value="Login Customer to Portal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-57" value="MongoDB Entry&lt;br&gt;has purchase id&amp;nbsp;&lt;br&gt;token" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-59" value="Login Customer to Portal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="680" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
