@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T09:26:11.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="3WNgmPzXYZ8AtV1XzIm4" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-03T09:36:03.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="laaApc8mG-CexROnH9JB" version="20.0.4" type="github">
   <diagram id="QCw60tyAbhrBxFfpFavn" name="Page-1">
-    <mxGraphModel dx="1018" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1131" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,22 @@
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-12" value="Create Customer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-11">
           <mxGeometry x="0.2125" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-1" target="6gx0l_ZdjT-B5nw_couS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-24" value="Creat Customer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-23">
+          <mxGeometry x="0.0923" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-1" target="6gx0l_ZdjT-B5nw_couS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-26" value="Purchase Validation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-25">
+          <mxGeometry x="-0.3034" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -38,7 +54,7 @@
         <mxCell id="6gx0l_ZdjT-B5nw_couS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6gx0l_ZdjT-B5nw_couS-10" target="6gx0l_ZdjT-B5nw_couS-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6gx0l_ZdjT-B5nw_couS-20" value="Create Customer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-19">
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-20" value="Create Subscription" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6gx0l_ZdjT-B5nw_couS-19">
           <mxGeometry x="-0.2625" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -54,6 +70,12 @@
         </mxCell>
         <mxCell id="6gx0l_ZdjT-B5nw_couS-18" value="Azure APIM" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-21" value="Microsoft SaaS API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6gx0l_ZdjT-B5nw_couS-22" value="AAD B2C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
