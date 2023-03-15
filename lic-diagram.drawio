@@ -1,1 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-03-15T09:41:51.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="QBv3cAOZVxxuDkb8KESN" type="github"><diagram name="Page-1" id="m5YZ_qlnOhGQj11QOPUK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-15T09:46:31.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="CXn4_rwfoMrmsxl4LaTL" version="21.0.6" type="github">
+  <diagram name="Page-1" id="m5YZ_qlnOhGQj11QOPUK">
+    <mxGraphModel dx="1026" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-1" value="On-prem Customer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-2" value="Brighter AI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Nhj254I4W7g9TZ_N3ey-3" target="7Nhj254I4W7g9TZ_N3ey-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-3" value="Request for Credits&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-4" value="Password that only Brighter AI knows" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-5" value="License for Credits&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-6" value="Password that only Brighter AI knows" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Nhj254I4W7g9TZ_N3ey-8" target="7Nhj254I4W7g9TZ_N3ey-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-13" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Nhj254I4W7g9TZ_N3ey-10">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-8" value="password is correct?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.375;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Nhj254I4W7g9TZ_N3ey-9" target="7Nhj254I4W7g9TZ_N3ey-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-12" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7Nhj254I4W7g9TZ_N3ey-11">
+          <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Nhj254I4W7g9TZ_N3ey-9" value="customer paid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
