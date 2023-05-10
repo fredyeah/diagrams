@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T12:40:53.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="xGQlb-RLmF9q_QmZqUQp" version="21.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T12:44:00.124Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="n83WmVC5IPZtBi14Sllx" version="21.2.7" type="github">
   <diagram name="Page-1" id="PGpE8NxMU9o_gGsEM3-Z">
     <mxGraphModel dx="1283" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tB8VPmVk6WtlkbhnAfc9-74" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1830" width="800" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tB8VPmVk6WtlkbhnAfc9-75" value="simple architecture, using labels in a CRUD fashion, allows to extend to more topics&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1830" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tB8VPmVk6WtlkbhnAfc9-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="27" y="1450" width="800" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tB8VPmVk6WtlkbhnAfc9-73" value="works, but maybe not the best architecture&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="177" y="1450" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tB8VPmVk6WtlkbhnAfc9-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1160" width="800" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tB8VPmVk6WtlkbhnAfc9-71" value="Does not work, SB Consumer can only consume from one topic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1160" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tB8VPmVk6WtlkbhnAfc9-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="800" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="gos6sAqnO3sps4v2v4FD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gos6sAqnO3sps4v2v4FD-5" target="gos6sAqnO3sps4v2v4FD-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -355,6 +376,9 @@
         </mxCell>
         <mxCell id="tB8VPmVk6WtlkbhnAfc9-64" value="report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="480" y="1560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tB8VPmVk6WtlkbhnAfc9-69" value="Current Setup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="800" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
