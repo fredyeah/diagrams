@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T16:26:14.205Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="sO0XJwjFpn9jxluC5YA0" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T08:50:41.646Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LGqUnfK5HAtUhGY_DI6N" version="21.2.9" type="github">
   <diagram name="Page-1" id="PGpE8NxMU9o_gGsEM3-Z">
-    <mxGraphModel dx="1026" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1710" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tB8VPmVk6WtlkbhnAfc9-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1160" width="800" height="280" as="geometry" />
+        </mxCell>
         <mxCell id="tB8VPmVk6WtlkbhnAfc9-74" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="1830" width="800" height="280" as="geometry" />
         </mxCell>
@@ -15,9 +18,6 @@
         </mxCell>
         <mxCell id="tB8VPmVk6WtlkbhnAfc9-73" value="works, but maybe not the best architecture&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="1520" width="500" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="tB8VPmVk6WtlkbhnAfc9-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1160" width="800" height="280" as="geometry" />
         </mxCell>
         <mxCell id="tB8VPmVk6WtlkbhnAfc9-71" value="Does not work, SB Consumer can only consume from one topic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="1160" width="500" height="30" as="geometry" />
@@ -379,6 +379,73 @@
         </mxCell>
         <mxCell id="tB8VPmVk6WtlkbhnAfc9-69" value="Current Setup" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="800" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2160" width="860" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-2" value="simple architecture, using labels in a CRUD fashion, allows to extend to more topics&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2160" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-4" target="wnMtdSzb1h41-x0bOQ6u-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-4" value="Consumption" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="2500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="2390" />
+              <mxPoint x="480" y="2390" />
+              <mxPoint x="480" y="2500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-9" value="OnpremConsumptionData&lt;br&gt;Labels:&amp;nbsp;create, update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2190" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-10" value="Portal Report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-11" value="Email Notif (current)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="2720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-12" value="Overconsumption Notification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-14" target="wnMtdSzb1h41-x0bOQ6u-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-14" target="wnMtdSzb1h41-x0bOQ6u-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="2620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-14" target="wnMtdSzb1h41-x0bOQ6u-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="2730" />
+              <mxPoint x="520" y="2730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-14" value="CloudConsumptionData&lt;br&gt;Labels:&amp;nbsp;create, update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-15" value="MongoReport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2460" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-18" target="wnMtdSzb1h41-x0bOQ6u-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-18" target="wnMtdSzb1h41-x0bOQ6u-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-18" value="PortalReport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2580" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
