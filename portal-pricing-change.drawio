@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T08:50:41.646Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LGqUnfK5HAtUhGY_DI6N" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T12:00:25.226Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MDq1l-rKIctwVSivmyXI" version="21.2.9" type="github">
   <diagram name="Page-1" id="PGpE8NxMU9o_gGsEM3-Z">
-    <mxGraphModel dx="1710" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="789" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,6 +446,70 @@
         </mxCell>
         <mxCell id="wnMtdSzb1h41-x0bOQ6u-18" value="PortalReport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="510" y="2580" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-29" target="wnMtdSzb1h41-x0bOQ6u-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-56" value="aggregate consumption&lt;br&gt;verify client_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wnMtdSzb1h41-x0bOQ6u-47">
+          <mxGeometry x="0.0128" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-29" target="wnMtdSzb1h41-x0bOQ6u-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-55" value="Overconsumed event&lt;br&gt;POST: api/webhooks&lt;br&gt;BODY: &lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp; event_type: overconsumed&lt;br&gt;}" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBorderColor=default;" vertex="1" connectable="0" parent="wnMtdSzb1h41-x0bOQ6u-54">
+          <mxGeometry x="-0.1371" relative="1" as="geometry">
+            <mxPoint x="-63" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-29" value="Reporting&lt;br&gt;check % of consump" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-45" value="api/payment-webhooks/stripe" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-32" target="wnMtdSzb1h41-x0bOQ6u-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="1180" />
+              <mxPoint x="1600" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-32" target="wnMtdSzb1h41-x0bOQ6u-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-58" value="get billing period" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wnMtdSzb1h41-x0bOQ6u-57">
+          <mxGeometry x="0.1335" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-32" value="Stripe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-34" value="APIM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-37" target="wnMtdSzb1h41-x0bOQ6u-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-37" target="wnMtdSzb1h41-x0bOQ6u-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-44" value="activate / deactivate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wnMtdSzb1h41-x0bOQ6u-43">
+          <mxGeometry x="-0.3765" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-37" value="Portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-39" value="PortalDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1400" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wnMtdSzb1h41-x0bOQ6u-41" target="wnMtdSzb1h41-x0bOQ6u-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wnMtdSzb1h41-x0bOQ6u-41" value="Redact Container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1280" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
